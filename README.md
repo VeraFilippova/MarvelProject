@@ -1,3 +1,14 @@
+Demo app - https://marvel-project-vera-fill.vercel.app/
+Github - https://github.com/VeraFilippova/MarvelProject
+
+Vera Filippova - Frontend developer
+
+Telegram -  @VeraFil
+Mail - vera.yu.filippova@gmail.com
+
+Steck: #react #js #html #css #scss 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
