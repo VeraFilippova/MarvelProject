@@ -64,7 +64,7 @@ const ComicsList = () => {
                 </li>
             </ul>
             <button className="button button__main button__long">
-                <div className="inner">load more</div>
+                <div className="inner">загрузить</div>
             </button>
         </div>
     )

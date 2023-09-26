@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import PropTypes from 'prop-types';
 import Spinner from '../spinner/Spinner';
 import ErrorMassage from '../errorMessage/ErrorMessage';
 import MarvelService from '../../services/MarvelService';
@@ -100,17 +101,17 @@ const View = ({char})=>{
                         <div className="char__info-name">{name}</div>
                         <div className="char__btns">
                             <a href={homepage} className="button button__main">
-                                <div className="inner">homepage</div>
+                                <div className="inner">домой</div>
                             </a>
                             <a href={wiki} className="button button__secondary">
-                                <div className="inner">wiki</div>
+                                <div className="inner">информация</div>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className="char__descr">
                    {description}</div>
-                <div className="char__comics">Comics:</div>
+                <div className="char__comics">Комиксы:</div>
                 <ul className="char__comics-list">
                     {comics.length>0 ? null : 'У этого героя нет комиксов'}
                     {comics.map((item, i)=>{
@@ -127,6 +128,10 @@ const View = ({char})=>{
         </>
 
     )
+}
+
+CharInfo.propTypes={
+    charId: PropTypes.number
 }
 
 export default CharInfo;
