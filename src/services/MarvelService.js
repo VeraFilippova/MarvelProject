@@ -32,7 +32,7 @@ const useMarvelService=()=>{
       comics: char.comics.items
     }
   }
-  return{loading, error, getAllCharacters, getCharacter}
+  return{loading, error, getAllCharacters,clearError, getCharacter}
 }
 
 export default useMarvelService;
